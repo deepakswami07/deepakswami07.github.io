@@ -5,7 +5,8 @@ nav {font-family: Helvetica;
 font-size: 20px;}
 
 a {text-decoration: none;
-margin-left: 200px;
+   margin-left: 200px;
+   color: darkgreen;
 }
 
 #header { height: 50px;
@@ -18,10 +19,13 @@ margin-left: 200px;
     border-radius: 10px;
 }
 
-li {list-style-type: none;}
+li {list-style-type: none;
+}
+
+div {margin-bottom: 20px;}
 
 #buttons {float: left;
-    margin-left: 336px;
+    margin-left: 100px;
     
     margin-top: 14px;
     font-family: Gotham;
@@ -41,8 +45,15 @@ li {list-style-type: none;}
 	margin-top: -10px;
 }
 
-.week{font-family: Helevitica;
-   font-size: 30px;
+header {text-align: left;
+        margin-left: 200px;
+        font-family: Helvetica;
+        font-size: .75em;
+        margin-bottom: 10px;
+}
+
+.week{font-family: Helvetica;
+   font-size: 24px;
    font-style: bold;
    text-align: left;
    margin-left: 30px;
@@ -52,17 +63,28 @@ li {list-style-type: none;}
     font-size: 20px;
     font-style: bold;
     float: left;
-    margin-left: 30px;
+    margin: 20px;
     color: #718568;
 }
 
 img {float: left;
-  margin-left:230px;
-margin-top: 10px;}
+     margin-left:230px;
+     margin-top: 5px;}
 
-h6 {margin-left: 40px}
+h6 {text-align: center;
+    margin-top: 10px;}
+
+#sub {font-family: Helevitica;
+   font-size: 20px;
+   font-style: bold;
+   text-align: left;
+   margin-left: 30px;
+   margin-top: 20px;
+}
 
 #webpics {margin-left: -85px;}
 
 #wireframe { margin-left: 30px;
 }
+
+span {text-align: center;}

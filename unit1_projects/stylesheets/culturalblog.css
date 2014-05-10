@@ -1,5 +1,6 @@
 body {background-color: #ffc04d;
-      position: center;}
+      position: center;
+      width: 100%;}
 
 #header { height: 50px;
 	display: inline-block;
@@ -15,14 +16,15 @@ body {background-color: #ffc04d;
     background-color: #ffe23a;
     margin-top: 14px;
     font-family: Gotham;
-    font-size: 20px;
-    color: white;
+    font-size: 24px;
+    color: green;
     border-radius: 5px;
     border-color: #62c434;
     border-spacing: 5px;
+    padding: 2px;
 } 
 
-#text {height: 700px;
+#text {height: 100%;
 	display: inline-block;
 	position: static;
 	width: 800px;

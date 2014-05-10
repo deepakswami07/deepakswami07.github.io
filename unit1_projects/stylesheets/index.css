@@ -63,7 +63,8 @@ a:hover{color: #FFFFFF;}
            border: dotted;
            border-radius: 10px;
            color: white;
-           display:none;}
+           display: none;
+       }
 
 #right_box {float: right;
 	       margin-right: -520px;
@@ -73,7 +74,8 @@ a:hover{color: #FFFFFF;}
            border: dotted;
            border-radius: 10px;
            color: white;
-           display:none;}
+           display: none;
+       }
 
 
            /* Media Queries 769px*/  
