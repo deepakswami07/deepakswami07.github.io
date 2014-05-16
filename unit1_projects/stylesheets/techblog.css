@@ -1,22 +1,111 @@
-body {background-color: #d3d4d6;
+body {background-color: #abc8e2;
       position: center;}
 
-nav {font-family: Helvetica;
+nav {font-family: Futura;
 font-size: 20px;}
 
 a {text-decoration: none;
-   margin-left: 200px;
-   color: darkgreen;
+   margin-left: 50px;
+   color: #183152;
+   background-color: white;
+   padding:1px 5px;
+   font-family: Futura;
+   font-size: 16px;
+   text-shadow: .25px .25px .25px #183152;
 }
 
-#header { height: 50px;
-	display: inline-block;
-	position: static;
-	width: 800px;
-	background-color: #718568;
-	margin-left: 200px;
-	margin-top: 5px;
-    border-radius: 10px;
+#header { height: 3px;
+  display: inline-block;
+  position: static;
+  width: 70%;
+  background-color: #183152;
+  margin-top: -25px;
+  margin-left: 50px;
+}
+
+#blogheading {float: left;
+    margin-left: 60px;
+    margin-top: 14px;
+    font-family: Futura;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #000000;
+    color: white;
+} 
+
+#side { height: 130px;
+  display: inline-block;
+  width: 300px;
+  background-color: #183152;
+  margin-left: 30px;
+  margin-top: -80px;
+  position: relative;
+}
+
+#text_side {height: 600px;
+  display: inline-block;
+  float: right;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 60px;
+  margin-top: -10px;
+}
+
+#sidetitle {font-family: Verdana;
+  font-size: .6em;
+  text-align: center;
+  margin-top: 4px;
+}
+
+#sidelinks{
+   font-family: Verdana;
+   font-size: 35px;
+   text-align: left;
+}
+#text {height: 100%;
+  display: inline-block;
+  position: static;
+  width: 70%;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+
+.week{font-family: Helvetica;
+   font-size: 24px;
+   font-style: bold;
+   text-align: left;
+   margin-left: 30px;
+   margin-bottom: -5px;
+   letter-spacing: 20px;
+   color: rgb(15,222,255);
+   text-shadow: 1px 1px 1px #000000;
+}
+
+.questions {font-family: ubuntu;
+    font-size: 18px;
+    text-indent: 20px;
+    font-style: bold;
+    float: left;
+    margin: 18px;
+    color: #183152;
+}
+
+
+#navheader{ width:100%;
+  height: 50px;
+  background-color: #183152;
+}
+
+
+h6 {text-align: center;
+margin: 5px;}
+
+
+#text_side a { font-family: Ubuntu, non-serif;
+  font-size: .30em;
+  color: black;
 }
 
 li {list-style-type: none;
@@ -26,51 +115,36 @@ div {margin-bottom: 20px;}
 
 #buttons {float: left;
     margin-left: 100px;
-    
     margin-top: 14px;
     font-family: Gotham;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     border-radius: 5px;
     border-color: #f4fffe;
     border-spacing: 5px;
 } 
 
-#text {height: 100%;
-	display: inline-block;
-	position: static;
-	width: 800px;
-	background-color: #f4fffe;
-	margin-left: 200px;
-	margin-top: -10px;
-}
 
 header {text-align: left;
-        margin-left: 200px;
+        margin-left: 40px;
         font-family: Helvetica;
-        font-size: .75em;
-        margin-bottom: 10px;
+        font-size: .45em;
+        margin-top: 20px;
 }
 
-.week{font-family: Helvetica;
-   font-size: 24px;
-   font-style: bold;
-   text-align: left;
-   margin-left: 30px;
-}
 
-.questions {font-family: Courier;
-    font-size: 20px;
-    font-style: bold;
-    float: left;
-    margin: 20px;
-    color: #718568;
-}
+
+
 
 img {float: left;
-     margin-left:230px;
+     margin-left:120px;
      margin-top: 5px;}
 
+span {
+  color: rgb(15,150,255);
+}
+
+}
 h6 {text-align: center;
     margin-top: 10px;}
 
