@@ -17,7 +17,7 @@ a {text-decoration: none;
 #header { height: 3px;
   display: inline-block;
   position: static;
-  width: 70%;
+  width: 68%;
   background-color: #183152;
   margin-top: -25px;
   margin-left: 50px;
@@ -27,27 +27,19 @@ a {text-decoration: none;
     margin-left: 60px;
     margin-top: 14px;
     font-family: Futura;
-    font-size: 30px;
-    text-shadow: 3px 3px 3px #000000;
+    font-size: 1em;
+    text-shadow: 2px 2px 2px #000000;
     color: white;
 } 
 
-#side { height: 130px;
-  display: inline-block;
-  width: 300px;
-  background-color: #183152;
-  margin-left: 30px;
-  margin-top: -80px;
-  position: relative;
-}
 
-#text_side {height: 600px;
+#text_side {height: 40px;
   display: inline-block;
   float: right;
-  width: 300px;
-  background-color: white;
+  width: 25%;
+  background-color: #183152;
   border-radius: 5px;
-  margin-right: 60px;
+  margin-right: 20px;
   margin-top: -10px;
 }
 
@@ -55,35 +47,42 @@ a {text-decoration: none;
   font-size: .6em;
   text-align: center;
   margin-top: 4px;
+  color: white;
 }
 
-#sidelinks{
-   font-family: Verdana;
-   font-size: 35px;
-   text-align: left;
+article { font-family: Helvetica;
+  font-size: .5em;
+  color: white;
+  margin: 20px;
+  opacity: 60%;
+  text-shadow: 1.5px 1.5px 1.5px #183152;
 }
+
+li {list-style-type: none;
+    font-size: .20em;
+}
+
 #text {height: 100%;
   display: inline-block;
   position: static;
-  width: 70%;
+  width: 68%;
   border-radius: 5px;
   background-color: white;
   margin-left: 50px;
   margin-top: -40px;
 }
 
-.week{font-family: Helvetica;
+.week{font-family: Futura;
    font-size: 24px;
    font-style: bold;
    text-align: left;
    margin-left: 30px;
    margin-bottom: -5px;
    letter-spacing: 20px;
-   color: rgb(15,222,255);
-   text-shadow: 1px 1px 1px #000000;
+   color: #183152;
 }
 
-.questions {font-family: ubuntu;
+.questions {font-family: Futura;
     font-size: 18px;
     text-indent: 20px;
     font-style: bold;
@@ -98,44 +97,9 @@ a {text-decoration: none;
   background-color: #183152;
 }
 
-
-h6 {text-align: center;
-margin: 5px;}
-
-
-#text_side a { font-family: Ubuntu, non-serif;
-  font-size: .30em;
-  color: black;
-}
-
-li {list-style-type: none;
-}
-
 div {margin-bottom: 20px;}
 
-#buttons {float: left;
-    margin-left: 100px;
-    margin-top: 14px;
-    font-family: Gotham;
-    font-size: 30px;
-    color: white;
-    border-radius: 5px;
-    border-color: #f4fffe;
-    border-spacing: 5px;
-} 
-
-
-header {text-align: left;
-        margin-left: 40px;
-        font-family: Helvetica;
-        font-size: .45em;
-        margin-top: 20px;
-}
-
-
-
-
-
+ 
 img {float: left;
      margin-left:120px;
      margin-top: 5px;}
@@ -144,21 +108,30 @@ span {
   color: rgb(15,150,255);
 }
 
-}
+
 h6 {text-align: center;
     margin-top: 10px;}
 
-#sub {font-family: Helevitica;
-   font-size: 20px;
-   font-style: bold;
-   text-align: left;
-   margin-left: 30px;
-   margin-top: 20px;
-}
-
-#webpics {margin-left: -85px;}
-
-#wireframe { margin-left: 30px;
-}
 
 span {text-align: center;}
+
+/* Media Queries 481px*/     
+
+@media only screen and (max-width: 481px){
+}
+
+/* Media Queries 769px*/  
+@media only screen and (min-width : 769px){
+}
+
+
+/* Media Queries 1024px*/  
+
+@media only screen and (min-width : 1024px){
+
+}
+
+/* Media Queries 481px*/  
+
+@media only screen and (min-width: 1024px){
+}
