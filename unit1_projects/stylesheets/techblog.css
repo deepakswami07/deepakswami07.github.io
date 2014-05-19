@@ -1,37 +1,44 @@
 body {background-color: #abc8e2;
       position: center;}
 
-nav {font-family: Futura;
-font-size: 20px;}
+nav {font-family: avenir;
+    font-size: .75%;}
 
 a {text-decoration: none;
-   margin-left: 50px;
+   margin-left: 4%;
    color: #183152;
    background-color: white;
    padding:1px 5px;
-   font-family: Futura;
-   font-size: 16px;
+   font-family: avenir;
+   font-size: 0.5em;
    text-shadow: .25px .25px .25px #183152;
 }
 
 #header { height: 3px;
   display: inline-block;
   position: static;
-  width: 68%;
+  width: 65%;
   background-color: #183152;
-  margin-top: -25px;
-  margin-left: 50px;
+  margin-top: 1.3%;
+  margin-left: 3.4%;
+}
+
+#footer { height: 3px;
+  display: inline-block;
+  position: static;
+  width: 65%;
+  background-color: #183152;
+  margin-top: 1.3%;
+  margin-left: 3.4%;
 }
 
 #blogheading {float: left;
-    margin-left: 60px;
-    margin-top: 14px;
-    font-family: Futura;
-    font-size: 1em;
-    text-shadow: 2px 2px 2px #000000;
-    color: white;
+    margin-left: 4%;
+    margin-top: 1%;
+    font-family: avenir;
+    font-size: .75em;
+    color: #183152;
 } 
-
 
 #text_side {height: 40px;
   display: inline-block;
@@ -39,58 +46,56 @@ a {text-decoration: none;
   width: 25%;
   background-color: #183152;
   border-radius: 5px;
-  margin-right: 20px;
-  margin-top: -10px;
+  margin-right: 3.6%;
+  margin-top: .04%;
 }
 
 #sidetitle {font-family: Verdana;
   font-size: .6em;
   text-align: center;
-  margin-top: 4px;
+  margin-top: 1%;
   color: white;
 }
 
-article { font-family: Helvetica;
+article { font-family: avenir;
   font-size: .5em;
-  color: white;
-  margin: 20px;
+  color: #183152;
+  margin: 8.5% 3.0%;
   opacity: 60%;
-  text-shadow: 1.5px 1.5px 1.5px #183152;
 }
 
 li {list-style-type: none;
-    font-size: .20em;
+  font-size: .20em;
 }
 
 #text {height: 100%;
   display: inline-block;
   position: static;
-  width: 68%;
+  width: 65%;
   border-radius: 5px;
   background-color: white;
-  margin-left: 50px;
-  margin-top: -40px;
+  margin-left: 3.5%;
+  margin-top: 0.001%;
 }
 
-.week{font-family: Futura;
-   font-size: 24px;
+.week{font-family: avenir;
+   font-size: .75em;
    font-style: bold;
    text-align: left;
-   margin-left: 30px;
+   margin-left: 3.5%;
    margin-bottom: -5px;
    letter-spacing: 20px;
    color: #183152;
 }
 
-.questions {font-family: Futura;
-    font-size: 18px;
-    text-indent: 20px;
+.questions {font-family: avenir;
+    font-size: .55em;
+    text-indent: 4%;
     font-style: bold;
     float: left;
-    margin: 18px;
+    margin: 2.5%;
     color: #183152;
 }
-
 
 #navheader{ width:100%;
   height: 50px;
@@ -100,8 +105,9 @@ li {list-style-type: none;
 div {margin-bottom: 20px;}
 
  
-img {float: left;
-     margin-left:120px;
+img {width: 85%;
+     float: left;
+     margin-left:7%;
      margin-top: 5px;}
 
 span {
@@ -118,7 +124,8 @@ span {text-align: center;}
 /* Media Queries 481px*/     
 
 @media only screen and (max-width: 481px){
-}
+
+
 
 /* Media Queries 769px*/  
 @media only screen and (min-width : 769px){
