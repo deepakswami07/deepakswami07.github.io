@@ -58,11 +58,14 @@ a {text-decoration: none;
 }
 
 article { font-family: avenir;
-  font-size: .5em;
+  font-size: .4em;
   color: #183152;
-  margin: 8.5% 3.0%;
+  margin-top: 8.5% ;
   opacity: 60%;
 }
+
+span {color: #183152;}
+
 
 li {list-style-type: none;
   font-size: .20em;
@@ -121,16 +124,9 @@ img {width: 85%;
      margin-left:7%;
      margin-top: 5px;}
 
-span {
-  color: rgb(15,150,255);
-}
-
-
 h6 {text-align: center;
     margin-top: 10px;}
 
-
-span {text-align: center;}
 
 /* Media Queries 481px*/     
 
