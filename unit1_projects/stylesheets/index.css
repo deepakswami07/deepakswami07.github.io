@@ -4,14 +4,21 @@ body{width: 100%;
 	 background-color:#0b0b0b;
 }
 
-header {font-family: Helvetica;
+header {font-family: Futura;
 	  font-size: .4em;
-	  opacity: .65;
+	  opacity: .80;
 	  color: #FFF;
 	  letter-spacing:1.95em;
 	  margin-left: 16.34%;
-	  margin-top: 6%;
+	  margin-top: 3%;
 }
+
+#logo {position: relative;
+       margin-left: 79%;
+       margin-top: -10.5%;
+       opacity: .70;
+       display: none;
+   }
 
 #top_line{height:1px;
 		   width:65%;
@@ -52,6 +59,8 @@ a:link {text-decoration: none;
         color: grey;
 }
 
+a:visited {color:grey;}
+
 a:hover{color: #FFFFFF;}
 
 #left_box {position: fixed;
@@ -60,7 +69,7 @@ a:hover{color: #FFFFFF;}
 	       margin-top: -40%;
 	       width:400px;
 	       height: 240px;
-           border: dotted;
+           border: dotted 2px;
            border-radius: 10px;
            color: white;
            display: none;
@@ -78,22 +87,26 @@ a:hover{color: #FFFFFF;}
        }
 
 
-           /* Media Queries 769px*/  
+/* Media Queries 481px*/     
+
+@media only screen and (max-width: 481px){
+
+
+
+/* Media Queries 769px*/  
 @media only screen and (min-width : 769px){
-	
-]
+}
+
 
 /* Media Queries 1024px*/  
 
 @media only screen and (min-width : 1024px){
 
-  
 }
 
 /* Media Queries 481px*/  
 
 @media only screen and (min-width: 1024px){
-	
 }
 
 
