@@ -13,7 +13,7 @@ a {text-decoration: none;
    color: #183152;
    background-color: white;
    padding:0px 5px;
-   font-family: avenir;
+   font-family: sans-serif;
    font-size: 1em;
 }
 
@@ -29,7 +29,7 @@ a {text-decoration: none;
 #blogheading {float: left;
     margin-left: 4%;
     margin-top: -1%;
-    font-family: avenir;
+    font-family: sans-serif;
     font-size: 1em;
     color: #183152;
 } 
@@ -44,7 +44,7 @@ a {text-decoration: none;
   margin-top: 0.001%;
 }
 
-.week{font-family: avenir;
+.week{font-family: sans-serif;
    font-size: 1.1em;
    font-style: bold;
    text-align: left;
@@ -73,14 +73,14 @@ a {text-decoration: none;
   margin-top: .04%;
 }
 
-#sidetitle {font-family: avenir;
+#sidetitle {font-family: sans-serif;
   font-size: 1.1em;
   text-align: center;
   margin-top: -1%;
   color: white;
 }
 
-article { font-family: avenir;
+article { font-family: sans-serif;
   font-size: 1em;
   color: #183152;
   margin-top: 8.5% ;
