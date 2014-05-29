@@ -88,12 +88,13 @@ a:hover{color: #FFFFFF;}
            display: none;
        }
 
-img { position: float;
+img { position: static;
 	float: right;
 	margin-right: 20%;
 	margin-top:  -60%;
 	width: 30%;
 	opacity: .80;
+	display: none;
 	
 
 }
