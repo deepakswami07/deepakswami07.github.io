@@ -58,7 +58,7 @@ a {text-decoration: none;
 }
 
 article { font-family: avenir;
-  font-size: .4em;
+  font-size: .8em;
   color: #183152;
   margin-top: 8.5% ;
   opacity: 60%;
@@ -103,7 +103,7 @@ li {list-style-type: none;
 }
 
 .questions {font-family: avenir;
-    font-size: .55em;
+    font-size: 1em;
     text-indent: 4%;
     font-style: bold;
     float: left;
