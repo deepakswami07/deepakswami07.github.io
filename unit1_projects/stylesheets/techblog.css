@@ -1,8 +1,11 @@
 body {background-color: #abc8e2;
-      position: center;}
+      position: center;
+}
 
-nav {font-family: avenir;
-    font-size: .75%;}
+#navheader {width:100%;
+            height: 50px;
+            background-color: #183152;
+}
 
 a {text-decoration: none;
    margin-left: 4%;
@@ -23,22 +26,42 @@ a {text-decoration: none;
   margin-left: 3.4%;
 }
 
-#footer { height: 2px;
-  display: inline-block;
-  position: static;
-  width: 65%;
-  background-color: #183152;
-  margin-top: 1.3%;
-  margin-left: 18%;
-}
-
 #blogheading {float: left;
     margin-left: 4%;
     margin-top: -1%;
     font-family: avenir;
-    font-size: .9em;
+    font-size: 1em;
     color: #183152;
 } 
+
+#text {height: 100%;
+  display: inline-block;
+  position: static;
+  width: 65%;
+  border-radius: 5px;
+  background-color: white;
+  margin-left: 3.5%;
+  margin-top: 0.001%;
+}
+
+.week{font-family: avenir;
+   font-size: 1.1em;
+   font-style: bold;
+   text-align: left;
+   margin-left: 3.5%;
+   margin-bottom: -5px;
+   letter-spacing: 5px;
+   color: #183152;
+}
+
+.questions {font-family: avenir;
+    font-size: 1em;
+    text-indent: 4%;
+    font-style: bold;
+    float: left;
+    margin: 2.5%;
+    color: #183152;
+}
 
 #text_side {height: 40px;
   display: inline-block;
@@ -51,9 +74,9 @@ a {text-decoration: none;
 }
 
 #sidetitle {font-family: avenir;
-  font-size: .5em;
+  font-size: 1.1em;
   text-align: center;
-  margin-top: 2%;
+  margin-top: -1%;
   color: white;
 }
 
@@ -68,53 +91,17 @@ span {color: #183152;}
 
 
 li {list-style-type: none;
-  font-size: .20em;
 }
 
-#text {height: 100%;
+#footer { height: 2px;
   display: inline-block;
   position: static;
   width: 65%;
-  border-radius: 5px;
-  background-color: white;
-  margin-left: 3.5%;
-  margin-top: 0.001%;
-}
-
-.week{font-family: avenir;
-   font-size: .75em;
-   font-style: bold;
-   text-align: left;
-   margin-left: 3.5%;
-   margin-bottom: -5px;
-   letter-spacing: 5px;
-   color: #183152;
-}
-
-
-.week_class{font-family: avenir;
-   font-size: .75em;
-   font-style: bold;
-   text-align: left;
-   margin-left: 3.5%;
-   margin-bottom: -5px;
-   letter-spacing: 6px;
-   color: #183152;
-}
-
-.questions {font-family: avenir;
-    font-size: 1em;
-    text-indent: 4%;
-    font-style: bold;
-    float: left;
-    margin: 2.5%;
-    color: #183152;
-}
-
-#navheader{ width:100%;
-  height: 50px;
   background-color: #183152;
+  margin-top: 1.3%;
+  margin-left: 18%;
 }
+
 
 div {margin-bottom: 20px;}
 
@@ -123,9 +110,6 @@ img {width: 85%;
      float: left;
      margin-left:7%;
      margin-top: 5px;}
-
-h6 {text-align: center;
-    margin-top: 10px;}
 
 
 /* Media Queries 481px*/     
