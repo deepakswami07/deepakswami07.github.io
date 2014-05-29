@@ -8,12 +8,12 @@ body {background-color: #abc8e2;
 
 a {text-decoration: none;
    margin-left: 4%;
+   margin-top: 1%;
    color: #183152;
    background-color: white;
-   padding:1px 5px;
+   padding:0px 5px;
    font-family: avenir;
    font-size: 1em;
-   text-shadow: .25px .25px .25px #183152;
 }
 
 #header { height: 3px;
