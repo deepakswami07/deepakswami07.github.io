@@ -10,7 +10,7 @@ a {text-decoration: none;
    background-color: white;
    padding:1px 5px;
    font-family: avenir;
-   font-size: 0.5em;
+   font-size: 1em;
    text-shadow: .25px .25px .25px #183152;
 }
 
@@ -36,7 +36,7 @@ a {text-decoration: none;
     margin-left: 4%;
     margin-top: -1%;
     font-family: avenir;
-    font-size: .65em;
+    font-size: .9em;
     color: #183152;
 } 
 
@@ -58,7 +58,7 @@ a {text-decoration: none;
 }
 
 article { font-family: avenir;
-  font-size: .8em;
+  font-size: 1em;
   color: #183152;
   margin-top: 8.5% ;
   opacity: 60%;
