@@ -9,12 +9,12 @@ body {background-color: white;
 
 a {text-decoration: none;
    margin-left: 4%;
+   margin-top: 1%;
    color: #774c10;
    background-color: #ffb443;
-   padding:1px 5px;
-   font-family: avenir;
+   padding:0px 5px;
+   font-family: sans-serif;
    font-size: 1em;
-   text-shadow: .25px .25px .25px #774c10;
 }
 
 #header { height: 2px;
@@ -29,7 +29,7 @@ a {text-decoration: none;
 #blogheading {float: left;
     margin-left: 4%;
     margin-top: -1%;
-    font-family: avenir;
+    font-family: sans-serif;
     font-size: 1em;
     color: #774c10;
 } 
@@ -44,7 +44,7 @@ a {text-decoration: none;
   margin-top: 0.001%;
 }
 
-.week{font-family: avenir;
+.week{font-family: sans-serif;
    font-size: 1.1em;
    font-style: bold;
    text-align: left;
@@ -54,7 +54,7 @@ a {text-decoration: none;
    color: #52340b;
 }
 
-.questions {font-family: avenir;
+.questions {font-family: sans-serif;
     font-size: 1em;
     text-indent: 4%;
     font-style: bold;
@@ -63,7 +63,7 @@ a {text-decoration: none;
     color: #53350b;
 }
 
-.answer{font-family: Courier;
+.answer{font-family: sans-serif;
     font-size: 16px;
     text-indent: 30px;
     padding-left: 60px;
@@ -80,14 +80,14 @@ a {text-decoration: none;
   margin-top: .04%;
 }
 
-#sidetitle {font-family: avenir;
+#sidetitle {font-family: sans-serif;
   font-size: 1.1em;
   text-align: center;
   margin-top: -1%;
   color: #f2a224;
 }
 
-article { font-family: avenir;
+article { font-family: sans-serif;
   font-size: 1em;
   color: #774c10;
   margin-top: 8.5% ;
@@ -116,7 +116,6 @@ div {margin-bottom: 20px;}
 
 @media only screen and (max-width: 481px){
 }
-background-color: red
 
 /* Media Queries 769px*/  
 @media only screen and (min-width : 769px){
