@@ -12,7 +12,7 @@ a {text-decoration: none;
    color: #183152;
    background-color: white;
    padding:0px 5px;
-   font-family: avenir;
+   font-family: sans-serif;
    font-size: 1em;
 }
 
@@ -29,7 +29,7 @@ a {text-decoration: none;
 #blog_main{float: left;
     margin-left: 4%;
     margin-top: -3%;
-    font-family: avenir;
+    font-family: sans-serif;
     font-size: 1.1em;
     color: #183152;
 } 
@@ -51,8 +51,8 @@ li {list-style-type: none;
 }
 
 #blog_link {color: #183152;
-    text-decoration: none
-    font-family: avenir;
+    text-decoration: none;
+    font-family: sans-serif;
     font-size: .85em;
 }
 
