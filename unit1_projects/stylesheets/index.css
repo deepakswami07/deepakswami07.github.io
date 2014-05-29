@@ -4,7 +4,7 @@ body{width: 100%;
 	 background-color:#0b0b0b;
 }
 
-header {font-family: Futura;
+header {font-family: sans-serif;
 	  font-size: .7em;
 	  opacity: .80;
 	  color: #FFF;
@@ -28,20 +28,10 @@ header {font-family: Futura;
 	       letter-spacing: 2em;
 }
 
-#bottom_line{height:1px;
-		   width:65%;
-	       background-color: #DBDBDB;
-	       margin-left: 16.34%;
-	       margin-bottom: 10%;
-	       margin-top: 2%;
-	       letter-spacing: 2em;
-}
-
 li{list-style-type:none;
     margin-left:16%;
     padding:0;
     line-height: 150%;
-    letter-spacing:0.1.75em;
 }
 
 span {text-decoration: none;
@@ -51,8 +41,9 @@ span {text-decoration: none;
 
 a{width: 100%;
 	font-family: Helvetica;
-	font-size: .4em;
+	font-size: 1em;
 	margin-bottom: 10%;
+	letter-spacing: 2%
 }
 
 a:link {text-decoration: none;
@@ -62,6 +53,18 @@ a:link {text-decoration: none;
 a:visited {color:grey;}
 
 a:hover{color: #FFFFFF;}
+
+
+#bottom_line{height:1px;
+		   width:65%;
+	       background-color: #DBDBDB;
+	       margin-left: 16.34%;
+	       margin-bottom: 10%;
+	       margin-top: 2%;
+	       letter-spacing: 2em;
+}
+
+
 
 #left_box {position: fixed;
 	       display: inline-block;
