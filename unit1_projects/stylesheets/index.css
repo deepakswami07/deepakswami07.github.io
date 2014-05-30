@@ -13,12 +13,6 @@ header {font-family: sans-serif;
 	  margin-top: 3%;
 }
 
-#logo {position: relative;
-       margin-left: 79%;
-       margin-top: -10.5%;
-       opacity: .70;
-       display: none;
-   }
 
 #top_line{height:1px;
 		   width:65%;
@@ -28,6 +22,13 @@ header {font-family: sans-serif;
 	       letter-spacing: 2em;
 }
 
+img {float: right;
+	margin-right: 32%;
+	margin-top:  7%;
+	width: 30%;
+	opacity: .80;
+}
+
 li{list-style-type:none;
     margin-left:16%;
     padding:0;
@@ -35,7 +36,7 @@ li{list-style-type:none;
 }
 
 span {text-decoration: none;
-      font-family: Helvetica;
+      font-family: sans-serif;
       font-size: 2em;
       color: #DDC643;}
 
@@ -53,38 +54,12 @@ a:visited {color:grey;}
 
 a:hover{color: #FFFFFF;}
 
-
-#bottom_line{height:1px;
-		   width:65%;
-	       background-color: #DBDBDB;
-	       margin-left: 16.34%;
-	       margin-bottom: 10%;
-	       margin-top: 2%;
-	       letter-spacing: 2em;
-	       display: none;
+footer {position: static;
+	margin-top: -3%;
+	margin-left: 50%;
+	background-size: 10%;
 }
 
-
-
-#left_box {float: left;
-	       display: inline-block;
-	       margin-left: 40%;
-	       margin-top: -60%;
-	       width:40%;
-	       height: 200px;
-           border: dotted 2px;
-           border-radius: 10px;
-           color: white;
-           display: none;
-       }
-
-
-img {float: right;
-	margin-right: 30%;
-	margin-top:  7%;
-	width: 30%;
-	opacity: .80;
-}
 
 /* Media Queries 481px*/     
 
