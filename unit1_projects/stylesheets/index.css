@@ -79,15 +79,11 @@ a:hover{color: #FFFFFF;}
        }
 
 
-img { position: static;
-	float: right;
+img {float: right;
 	margin-right: 30%;
-	margin-top:  -50%;
+	margin-top:  7%;
 	width: 30%;
 	opacity: .80;
-	
-	
-
 }
 
 /* Media Queries 481px*/     
