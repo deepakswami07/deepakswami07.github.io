@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     	<link rel="stylesheet" type="text/css" href="stylesheets/techblog.css">
+      <meta name="viewport" content="widthe=device-width">
+      <title>Week 6 Tech Blog</title>
+     </head>
+           <body>
+            <div id="navheader">
+              <a href="unit1_projects/deepakswami07.github.io/index.html">:Home</a>
+              <a href="dbc1.html" target="_blank">:About</a>
+              <a href="http://www.deepakfx.com" Target="_blank">:Portfolio</a>
+              <a <a href="https://github.com/deepakswami07" target="_blank">:Github</a>
+              <a <a href="blog.html">:Blog</a>
+              <a href=""mailto:deepakswami07@gmail.com" Target="_top"">:Contact</a>
+            </div>
+
+            <div id="header"></div>
+            <div><li id="blogheading">{ | no. 9 | sunday, june 01, 2014 }</li></div>
+           	<div id="header"></div>
+            
+
+           	      <div id="text">
+                     <p class="week_class">| Blocks |   | Procs |   | Lambdas |</p>
+
+                     <p class="questions">
+                       Blocks, Procs and Lambdas are ruby closures that are very useful.  In programming languages, closure are like methods whose returned values can be assigned to variables to invoke the original code.  In this post I will discuss how blocks, prods and lambdas work, how they differ from each other and when to use them.</p>
+                      
+                      <p class="questions">
+                      Block:  Blocks are an excpetion to the rule that everything in ruby is an object.  Blocks are not objects, they are just a piece of code that can executed.  Blocks can’t be saved to variables and do not have the abilities of objects.  Blocks use curly braces or do and end to hold their code.  A very easy way to remember blocks is to think of them as a method without a name or an undefined method.  Blocks are syntactically simple and very useful.  There are a number of ruby methods that take blocks.  Instead of using the tedious "for loop" to iterate you can use each with a block to iterate through an array.  Another simple use of blocks is using times to loop and print a statement or message.  When you iterate an array using blocks you can pass an argument.  The each loop will visit each element in the array and call the block on every element in the array.</p>
+                      <img src="images/blocks.png">
+
+
+                      <p class="questions">
+                      Proc:  Blocks are very simple and convenient.  However, If you needed to use a block multiple times, you would have to rewrite the code every time you use it.  This leads to repetition of the code.  Ruby has a way of saving a block as an object so you don't have to rewrite by using Procs.  Procs is a way blocks can be saved as an object and reused, helping keep your code DRY.  Also, since procs are objects, they have all the abilities of objects.  The only difference between a block and a proc is that a proc is a saved block that can be reused.  </p>
+                     <img src="images/procs.png">
+
+                  
+      
+                     <p class="questions">
+                      Lambda:  Lambdas are very similar to procs but unlike procs they check the number of arguments passed.  This means a lambda will throw an error when the number of arguments are incorrect, but a proc will ignore and assign nil to the missing argument.  Another important difference between procs and lambdas is, when a lambda returns it passes control back to the method, in case of procs it returns without going back to the method.</p>
+                      <img src="images/lambda.png">
+                     
+                  </div>
+
+                  <div id="text_side">
+                  <li id="sidetitle">Archive</li>
+                    <article>no.1 <span>|</span> Self Evaluation <span>|</span></article>
+                    <article>no.2 <span>|</span> Website Review <span>|</span></article>
+                    <article>no.3 <span>|</span> CSS Positioning: A brief Description <span>|</span></article>
+                    <article>no.4 <span>|</span> Why is JavaScript So Popular? <span>|</span></article>
+                    <article>no.5 <span>|</span> Fireside Chat with Shareef <span>|</span></article>
+                    <article>no.6 <span>|</span> One Infinte Loop <span>|</span></article>
+                    <article>no.7 <span>|</span> Dealing With Conflict: My Son and I <span>|</span></article>
+                    <article>no.8 <span>|</span> There's blocks, and then there's class <span>|</span></article>
+                    <article>no.9 <span>|</span> Green Internet <span>|</span></article>
+                    <article>no.10 <span>|</span> Blocks, Procs and Lambdas <span>|</span></article>
+                    <article>no.11 <span>|</span> Stereotype Threat <span>|</span></article>
+
+                  <div id="footer"></div>
+          
+                  
+          </body>
+</html>
+
+           
