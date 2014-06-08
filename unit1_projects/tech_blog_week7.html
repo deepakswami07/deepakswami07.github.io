@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     	<link rel="stylesheet" type="text/css" href="stylesheets/techblog.css">
+      <meta name="viewport" content="widthe=device-width">
+      <title>Week 7 Tech Blog</title>
+     </head>
+           <body>
+            <div id="navheader">
+              <a href="unit1_projects/deepakswami07.github.io/index.html">:Home</a>
+              <a href="dbc1.html" target="_blank">:About</a>
+              <a href="http://www.deepakfx.com" Target="_blank">:Portfolio</a>
+              <a <a href="https://github.com/deepakswami07" target="_blank">:Github</a>
+              <a <a href="blog.html">:Blog</a>
+              <a href=""mailto:deepakswami07@gmail.com" Target="_top"">:Contact</a>
+            </div>
+
+            <div id="header"></div>
+            <div><li id="blogheading">{ | no. 12 | sunday, june 08, 2014 }</li></div>
+           	<div id="header"></div>
+            
+
+           	      <div id="text">
+                     <p class="week">SQL Optimization</p>
+
+                     <p class="questions">
+                       This week we were introduced to databases and structured query language or SQL for short.  SQL statements are used to retrieve data from database.  In order to retrieve data you need to access the data by writing SQL queries.  SQL queries can be written by using SQL keywords and by following a set of rules.  In this blog, I am going to discuss best practices and compare using some example to show how one can improve the efficacy of a query.</p>
+                      
+                      <p class="questions">
+                      Example 1:  All Vs selecting actual columns</p>
+                      <img src="images/example01.png">
+
+                      <p class="questions">
+                      By selecting the actual columns the time required to return an answer decreases, otherwise the query will have to pull all the columns even though you only require information from a few.  The general rule is to avoid full table scans as much as possible, especially for big tables.  </p>
+
+
+                      <p class="questions">
+                      Example 2:  Try to avoid the use of !not operator</p>
+                      <img src="images/example02.png">
+
+                      <p class="questions">
+                      It is much faster to return a correct match by using =  or IN rather than not != query.  When you use
+                      a negative operator, it will have to check every row in the table, which can be time consuming.  With the 
+                      use of = operator, it will make the query find that particular row, which meets the search requirement.</p>
+
+                      <p class="questions">
+                      Example 3:  Use the HAVING clause just as filter</p>
+                      <img src="images/example03.png">
+
+                      <p class="questions">
+                      Save using HAVING clause to "filter", this will make your query more efficient.</p>
+
+                      <p class="questions">
+                      Example 4:  Wildcard</p>
+                      <img src="images/example04.png">
+
+                      <p class="questions">
+                      Using a wildcard on large tables will slow your query, but if you have to use it try adding it using prefix or 
+                      postfix.  This is make the query comparatively faster.</p>
+
+                      <p class="questions">
+                      Example 5:  AND Vs OR</p>
+                      <img src="images/example05.png">
+
+                      <p class="questions">
+                      Using OR will cause the query to check all the rows, while the use of AND will be more 
+                      precise requiring less time</p>
+                     
+
+
+                  </div>
+
+                  <div id="text_side">
+                  <li id="sidetitle">Archive</li>
+                    <article>no.1 <span>|</span> Self Evaluation <span>|</span></article>
+                    <article>no.2 <span>|</span> Website Review <span>|</span></article>
+                    <article>no.3 <span>|</span> CSS Positioning: A brief Description <span>|</span></article>
+                    <article>no.4 <span>|</span> Why is JavaScript So Popular? <span>|</span></article>
+                    <article>no.5 <span>|</span> Fireside Chat with Shareef <span>|</span></article>
+                    <article>no.6 <span>|</span> One Infinte Loop <span>|</span></article>
+                    <article>no.7 <span>|</span> Dealing With Conflict: My Son and I <span>|</span></article>
+                    <article>no.8 <span>|</span> There's blocks, and then there's class <span>|</span></article>
+                    <article>no.9 <span>|</span> Green Internet <span>|</span></article>
+                    <article>no.10 <span>|</span> Blocks, Procs and Lambdas <span>|</span></article>
+                    <article>no.11 <span>|</span> Stereotype Threat <span>|</span></article>
+
+                  <div id="footer"></div>
+          
+                  
+          </body>
+</html>
+
+           
