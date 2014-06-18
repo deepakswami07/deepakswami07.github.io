@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+     <head>
+     	<link rel="stylesheet" type="text/css" href="stylesheets/blogpost.css">
+      <meta name="viewport" content="widthe=device-width">
+      <title>Week 8 Tech Blog</title>
+     </head>
+           <body>
+            <div id="navheader">
+              <a href="unit1_projects/deepakswami07.github.io/index.html">:Home</a>
+              <a href="dbc1.html" target="_blank">:About</a>
+              <a href="http://www.deepakfx.com" Target="_blank">:Portfolio</a>
+              <a <a href="https://github.com/deepakswami07" target="_blank">:Github</a>
+              <a <a href="blog.html">:Blog</a>
+              <a href=""mailto:deepakswami07@gmail.com" Target="_top"">:Contact</a>
+            </div>
+
+            <div id="header"></div>
+            <div><li id="blogheading">{ <span>|</span> no. 13 <span>|</span> sunday, june 15, 2014 }</li></div>
+           	<div id="header"></div>
+            
+
+           	      <div id="text">
+                     <p class="week">Regular Expressions</p>
+
+                     <p class="questions">
+                       During week 4  we were introduced to regular expression, I applied my limited knowledge to to solve part of the cipher challenge.  Over the next few weeks as I reviewed my cohorts members challenges I would come across them on and off.  I knew how effective and simple they looked but was too intimidated to get into it fully.  So I decided to learn more about regular expressions.  Having gone through many resources, I decided the focus on the basic mechanics of how they work. In this blog I will mostly cover simple extractions, booleans and switching.  As a motion designer I have used simple expression to do some repetitive task with different parameters to do repetitive tasks that would have taken me many many hours to keyframe and animate.  Some of them were pretty simple single line codes, but they made the motion design look really spectacular. There are four basic types of expressions, the boolean expressions, which evaluate to true or false; integer expression, which evaluates whole numbers; float expressions, which evaluate real numbers, and finally string expressions, which evaluates characters of a string. </p>
+                      
+                      <p class="questions">
+                      In Ruby, regular expression is a powerful tool that can be used with strings and text.  With regular expressions you can test, extract or change the given string.  Regexp is a way of creating a pattern of characters that can be matched to a string.  You write a regular expression between slash characters.    Like everything in Ruby, Regexp is an object.  since it is an object, you can assign it to a variable, pass it to methods and also send messages. I am going to use some simple examples to show how you can do some specific searches, assign the search result to a variable and apply methods to it.</p>
+
+                      <h4>Basic Matching</h4>
+                      <p class="questions">
+                      This returns the character number where the match starts.  Or returns true if the match is asking if force is not a part of the string.</p>
+                      <img src="images/basicmatching.png">
+
+                      
+                      <p class="questions">
+                      If you want to find if a specific word is present in a string you can use Regexp to match the word using match methods.  Since Regex is an object you can pass methods to it.</p>
+                      <img src="images/matchdata.png">
+
+                     
+                      <p class="questions">
+                      Examples of methods you can call on match, since it is an instance of the match class</p>
+                       <img src="images/matchdata00.png">
+
+                      
+                      
+                      <p class="questions">
+                      Lookarounds:  Lookarounds do more than match, an expression with a lookaround returns
+                      a match when it is surrounded by a certain context. In this example it returns
+                      the word "fool" from the given string, but it also returns the "fool" part of the word foolish.</p>
+                      <img src="images/matchdata01.png">
+
+                     
+                      <p class="questions">
+                      In this case it only returns fool if it followed by "ish". This is called positive look ahead</p>
+                       <img src="images/matchdata02.png">
+
+                       <p class="questions">
+                      In this case we use gsub or global substitution to switch one word or part of the word.  "ish" with "self".</p>
+                       <img src="images/matchdata03.png">
+
+                       <p class="questions">
+                      This examples shows the expression to find a match based on what comes after the word</p>
+                       <img src="images/matchdata04.png">
+
+                       <p class="questions">
+                      Same example but with the ! operator /p>
+                       <img src="images/matchdata05.png">
+
+                       <p class="questions">
+                      As you can see, I have just dealt with simple searches in a string and I have just scratched the surface.  This has helped me get started on regexp and I hope to bulid up on what I have learned so far./p>
+
+
+
+
+                  </div>
+
+                  <div id="text_side">
+                  <li id="sidetitle">Archive</li>
+                    <article>no.1 <span>|</span> Self Evaluation <span>|</span></article>
+                    <article>no.2 <span>|</span> Website Review <span>|</span></article>
+                    <article>no.3 <span>|</span> CSS Positioning: A brief Description <span>|</span></article>
+                    <article>no.4 <span>|</span> Why is JavaScript So Popular? <span>|</span></article>
+                    <article>no.5 <span>|</span> Fireside Chat with Shareef <span>|</span></article>
+                    <article>no.6 <span>|</span> One Infinte Loop <span>|</span></article>
+                    <article>no.7 <span>|</span> Dealing With Conflict: My Son and I <span>|</span></article>
+                    <article>no.8 <span>|</span> There's blocks,& then there's class <span>|</span></article>
+                    <article>no.9 <span>|</span> Green Internet <span>|</span></article>
+                    <article>no.10 <span>|</span> Blocks, Procs and Lambdas <span>|</span></article>
+                    <article>no.11 <span>|</span> Stereotype Threat <span>|</span></article>
+                    <article>no.12 <span>|</span> SQL Optimization <span>|</span></article>
+                    <article>no.13 <span>|</span> Affirmation <span>|</span></article>
+                    <article>no.14 <span>|</span> Pairing and Sharing <span>|</span></article>
+                    <article>no.15 <span>|</span> Regular Expression <span>|</span></article>
+                  </div>
+
+                  <div id="footer"></div>
+          
+                  
+          </body>
+</html>
+
+           
