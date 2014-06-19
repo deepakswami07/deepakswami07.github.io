@@ -105,6 +105,12 @@ article { font-family: 'Lato', sans-serif;
   margin-top: 8.5% ;
   opacity: 60%;
 }
+
+footer {position: static;
+        margin-top: -1%;
+        margin-left: 40%;  
+}
+
 #footer { height: px;
   display: inline-block;
   position: static;
