@@ -11,7 +11,8 @@ a {text-decoration: none;
    margin-left: 4%;
    margin-bottom: 1%;
    padding:0px 5px;
-   font-family: sans-serif;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
    font-size: 1em;
 }
 
@@ -23,7 +24,7 @@ a:visited {color:grey;}
 
 a:hover{color: #FFFFFF;}
 
-#header { height: 2px;
+#header { height: 1px;
   display: inline-block;
   position: static;
   width: 65%;
@@ -50,7 +51,8 @@ a:hover{color: #FFFFFF;}
   margin-top: 0.001%;
 }
 
-.week{font-family: sans-serif;
+.week{font-family: 'Lato', sans-serif;
+   font-weight: 700;
    font-size: 1.1em;
    font-style: bold;
    text-align: left;
@@ -60,7 +62,8 @@ a:hover{color: #FFFFFF;}
    color: black;
 }
 
-.questions {font-family: sans-serif;
+.questions {font-family: 'Lato', sans-serif;
+   font-weight: 300;
     font-size: 1em;
     text-indent: 4%;
     font-style: bold;
@@ -69,7 +72,8 @@ a:hover{color: #FFFFFF;}
     color: black;
 }
 
-.answer{font-family: sans-serif;
+.answer{font-family: 'Lato', sans-serif;
+   font-weight: 300;
     font-size: 16px;
     text-indent: 30px;
     padding-left: 60px;
@@ -86,20 +90,22 @@ a:hover{color: #FFFFFF;}
   margin-top: -6%;
 }
 
-#sidetitle {font-family: sans-serif;
+#sidetitle {font-family: 'Lato', sans-serif;
+   font-weight: 300;
   font-size: 1.1em;
   text-align: center;
   margin-top: 2%;
   color: #DDC643
 }
 
-article { font-family: sans-serif;
+article { font-family: 'Lato', sans-serif;
+   font-weight: 300;
   font-size: .8em;
   color: grey;
   margin-top: 8.5% ;
   opacity: 60%;
 }
-#footer { height: 3px;
+#footer { height: px;
   display: inline-block;
   position: static;
   width: 65%;
@@ -108,7 +114,8 @@ article { font-family: sans-serif;
   margin-left: 3.4%;
 }
 
-span {
+span {font-family: 'Lato', sans-serif;
+   font-weight: 700;
   color:  #DDC643;;
 }
 

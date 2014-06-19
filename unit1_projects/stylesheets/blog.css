@@ -2,20 +2,24 @@ body {background-color: white;
       position: center;}
 
 #navheader{ width:100%;
-  height: 50px;
-  background-color: black;
+            height: 50px;
+            background-color: black;
 }
 
 a {text-decoration: none;
    margin-left: 4%;
    margin-bottom: 1%;
    padding:0px 5px;
-   font-family: sans-serif;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
    font-size: 1em;
 }
 
 h2 {margin-left: 5%;
-margin-top: 5%;
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 a:link {text-decoration: none;
@@ -26,32 +30,27 @@ a:visited {color: grey;}
 
 a:hover{color: #FFFFFF;}
 
-#header { height: 2px;
-  display: inline-block;
-  position: static;
-  width: 65%;
-  background-color: #DDC643;;
-  margin-top: 1.0%;
-  margin-left: 3.4%;
-  margin-bottom: 4%;
+
+
+#header { height: 1px;
+          display: inline-block;
+          position: static;
+          width: 65%;
+          background-color: #DDC643;;
+          margin-top: 1.0%;
+          margin-left: 3.4%;
+          margin-bottom: 4%;
 }
 
-#blog_main{float: left;
-    margin-left: 4%;
-    margin-top: -3%;
-    font-family: sans-serif;
-    font-size: 1.1em;
-    color: black;
-} 
 
 #text {height: 100%;
-  display: inline-block;
-  position: static;
-  width: 65%;
-  border-radius: 5px;
-  background-color: white;
-  margin-left: 3.5%;
-  margin-top: 0.001%;
+      display: inline-block;
+      position: static;
+      width: 65%;
+      border-radius: 5px;
+      background-color: white;
+      margin-left: 3.5%;
+      margin-top: 0.001%;
 }
 
 li {list-style-type: none;
@@ -60,33 +59,36 @@ li {list-style-type: none;
     margin-top: 1%;
 }
 
-#blog_link {color: #183152;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: .85em;
+#blog_link {color: black;
+            text-decoration: none;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: .85em;
 }
 
 #line { height: .6px;
-  display: inline-block;
-  position: static;
-  width: 85%;
-  background-color: black;
-  margin-top: 1.3%;
-  margin-left: 7.4%;
+        display: inline-block;
+        position: static;
+        width: 85%;
+        background-color: black;
+        margin-top: 1.3%;
+        margin-left: 7.4%;
 }
 
 footer {position: static;
-  margin-top: -3%;
-  margin-left: 50%;
+        margin-top: -3%;
+        margin-left: 60%;
   
 }
+
 
 
 div {margin-bottom: 20px;}
 
  
-span {
-  color:  #DDC643;;
+span {color:  #DDC643;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
 }
 
 
